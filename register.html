@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="whrapper"></div>
+
+    <form action="">
+        <h1>Sign Up</h1>
+
+        <div class="input-box">
+            <input type="text" placeholder="full name" required>
+            <i class="fa-solid fa-user"></i>
+        </div>
+
+        <div class="input-box">
+            <input type="email" placeholder="email" required>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+
+        <div class="input-box">
+            <input type="password" id="regPasswordInput" placeholder="password" required>
+            <i class="fa-solid fa-eye" id="regToggleIcon" style="cursor: pointer;"></i>
+        </div>
+
+        <button type="submit" class="btn">Sign Up</button>
+
+        <div class="register-link">
+            <p>already have an account? <a href="index.html">login</a></p>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
